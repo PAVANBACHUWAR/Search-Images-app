@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.form-control{
+    width: 500px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+
+
+.searchresults{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+img{
+    width: 300px;
+    height: 150px;
+    margin: 50px;
+}
+.bookmark{
+    margin-left: 100px;
+    background-color: chocolate;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+.Images:hover .overlay {
+    opacity: 1;
+  }
+  
